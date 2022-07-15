@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo-image {
+    height: 80px;
+    width: 10%;
+}
+
+.navbar {
+    background-color: rgb(78, 26, 146);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: rgb(197, 32, 27);
+}
+
+nav ul li .dropdown {
+    display: none
+}
+
+.hero-area {
+    background-image: linear-gradient(45deg, rgba(27, 24, 24, 0.5), rgba(8, 83, 156, 0.2)), url(images/cat-g8081c2249_1920.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-h {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+
+span {
+    color: orangered;
+}
+
+.hero-p {
+    text-align: center;
+    font-size: 16px;
+    margin: 5% 30%;
+    color: white;
+}
+
+.hero-area a {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 90px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+}
+
+.register {
+    margin-left: 30%;
+}
+
+.join {
+    margin-left: 20px;
+}
+
+.join:hover {
+    background-color: darkgrey;
+    color: black;
+    transition: all 0.4s;
+}
+
+.register:hover {
+    background-color: oldlace;
+    color: black;
+    transition: all 0.8s;
+}
+
+.project-sec h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.project-sec p {
+    text-align: center;
+    opacity: 0.5;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.pro-img img {
+    height: 250px;
+    width: 100%;
+}
+
+.project-div {
+    display: flex;
+}
+
+.pro-img img:hover {
+    opacity: 0.5;
+}
+
+.testimonials-sec {
+    background-image: linear-gradient(45deg, rgba(245, 70, 66, 0.30), rgba(8, 83, 156, 0.30)), url(images/5.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+.second-sec h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 30px 0;
+    padding-top: 30px;
+    color: black;
+}
+
+.second-sec>p {
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.5;
+    padding-bottom: 30px;
+}
+
+#test-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 100px;
+}
+
+.testi-para {
+    background-color: rgba(8, 83, 156, 0.30);
+    margin: 20px 15%;
+}
+
+.testi-para p {
+    padding: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+.fa-caret-down {
+    font-size: 60px;
+    color: rgba(8, 83, 156, 0.30);
+    position: relative;
+    bottom: 45px;
+    left: 48%;
+}
+
+.testimonials-sec h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+
+
+/*third section*/
+
+.third-sec h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0;
+}
+
+.third-sec>p {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.services-sec {
+    display: flex;
+}
+
+.services1>i,
+.services2>i,
+.services3>i {
+    position: relative;
+    left: 45%;
+}
+
+.services1,
+.services2,
+.services3 {
+    height: 300px;
+    width: 400px;
+    border: 1px solid rgb(207, 199, 199);
+    background-color: rgb(207, 199, 199);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.fa-pencil {
+    color: rgb(187, 54, 54);
+    font-size: 45px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.fa-code {
+    color: rgb(212, 93, 23);
+    font-size: 45px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.fa-search {
+    color: rgb(8, 83, 156);
+    font-size: 45px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.services1 h2 {
+    text-align: center;
+    color: rgb(187, 54, 54);
+}
+
+.services2 h2 {
+    text-align: center;
+    color: rgb(212, 93, 23);
+}
+
+.services3 h2 {
+    text-align: center;
+    color: rgb(8, 83, 156);
+}
+
+.services-sec p {
+    text-align: center;
+    padding: 20px 10px;
+}
